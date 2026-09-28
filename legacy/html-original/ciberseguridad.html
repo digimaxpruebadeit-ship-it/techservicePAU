@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciberseguridad - TechServicesPAU</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="menu.html" class="logo"><i class="fa-solid fa-laptop-code"></i> TechServices<span>PAU</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="menu.html">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+
+<!-- HERO DE CIBERSEGURIDAD CON CLASE EXCLUSIVA -->
+<header class="hero-section hero-ciberseguridad">
+    <div class="hero-container-content">
+        <div class="service-main-icon">
+            <i class="fa-solid fa-shield-halved"></i>
+        </div>
+        <h1>Ciberseguridad <span class="text-glow" style="color: #00f0ff;">Avanzada</span></h1>
+        <p>Protección total para tus sistemas, redes y datos contra amenazas digitales actuales.</p>
+    </div>
+</header>
+<div>
+    <!-- SCRIPT PARA EL BOTÓN DE ME GUSTA -->
+    <script>
+        let isLiked = false;
+        function toggleLike() {
+            const btn = document.getElementById('likeBtn');
+            const countSpan = document.getElementById('likeCount');
+            btn.classList.toggle('liked');
+            let count = parseInt(countSpan.innerText);
+
+            if (!isLiked) {
+            C
+                btn.classList.add('liked');
+                countSpan.innerText = count;
+                isLiked = true;
+            } else {
+                
+                btn.classList.remove('liked');
+                countSpan.innerText = count;
+                isLiked = false;
+            }
+        }
+    </script>
+</body></div>
+
+<section class="cyber-connect-container">
+    <!-- Animación a la izquierda con sus puntos o nodos -->
+    <div class="cyber-animation-wrapper">
+        <iframe src="https://lottie.host/embed/315f90a6-a693-46ce-83ad-7ae0f92f6d51/ImXKA04usR.lottie" title="Animación Diseño Web" class="Animación Diseño Web"></iframe>
+    
+    </div>
+
+<!-- Líneas SVG de conexión -->
+    <svg class="cyber-lines" width="50" height="100%" viewBox="0 0 50 300" preserveAspectRatio="none">
+        <path d="M 0 70 Q 25 70, 50 30" fill="none" stroke="#00f0ff" stroke-width="2" stroke-dasharray="4,4" />
+        <path d="M 0 230 Q 25 230, 50 270" fill="none" stroke="#00f0ff" stroke-width="2" />
+    </svg>
+
+    <!-- Tus tarjetas originales a la derecha -->
+    <div class="cyber-cards-wrapper info-cards-grid">
+        <div class="info-card">
+            <div class="card-icon-orange"><i class="fa-solid fa-laptop-code"></i></div>
+            <h3>Desarrollo a la Medida</h3>
+            <p>Creamos interfaces únicas y atractivas enfocadas 100% en la identidad visual y los objetivos comerciales de tu negocio.</p>
+        </div>
+
+        <div class="info-card">
+            <div class="card-icon-orange"><i class="fa-solid fa-mobile-screen"></i></div>
+            <h3>100% Adaptable (Responsive)</h3>
+            <p>Tu sitio web lucirá y funcionará a la perfección en cualquier dispositivo: smartphones, tabletas y computadoras.</p>
+        </div>
+
+        <div class="info-card active-orange-card">
+            <div class="card-icon-orange"><i class="fa-solid fa-gauge-high"></i></div>
+            <h3>Alto Rendimiento y SEO</h3>
+            <p>Estructuras veloces optimizadas para motores de búsqueda, asegurando que tus clientes te encuentren fácilmente.</p>
+        </div>
+    </div>
+
+
+
+</div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content" style="padding: 0;">
+            <p>&copy; 2026 TechServicesPAU. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    
+</html>

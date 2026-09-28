@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Añade aquí tu sitemap cuando tengas el dominio definitivo:
+# Sitemap: https://TU-DOMINIO/sitemap.xml

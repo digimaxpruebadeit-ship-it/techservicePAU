@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mantenimiento y Reparación - TechServicesPAU</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="estilo/style.css">
+    <!-- Estilos específicos con temática morada -->
+    <link rel="stylesheet" href="estilo/mantenimiento-morado.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="menu.html" class="logo"><i class="fa-solid fa-laptop-code"></i> TechServices<span>PAU</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="menu.html">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    
+   <section class="hero-section">
+    <div class="hero-icon"><i class="fa-solid fa-microchip"></i></div>
+    <h1>Mantenimiento y <span>Reparación</span></h1>
+    <p>Diagnóstico experto, optimización profunda y solución de problemas en hardware y sistemas.</p>
+</section>
+<!-- ANIMACIÓN LOTTIE AGREGADA AQUÍ -->
+    <div class="lottie-background-container">
+        <iframe src="https://lottie.host/embed/edfe5b3d-a4c1-4f9f-95e7-c5493630c611/aNsFGS9XDp.lottie" frameborder="0"></iframe>
+    </div>
+            <!-- Botón de Me Gusta (Corazoncito) -->
+            <div class="like-container">
+                <button id="likeBtn" class="btn-like-purple" onclick="toggleLike()">
+                    <i class="fa-solid fa-heart" id="likeIcon"></i> 
+                    <span>Me Gusta Esto </span> 
+                </button>
+            </div>
+        </div>
+    </header>
+<!-- CONTENIDO / TARJETAS -->
+<section class="container services-section">
+    
+    
+
+    <div class="services-grid">
+        
+        <div class="card card-purple-border">
+            <div class="card-icon card-icon-purple"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <h3>Mantenimiento Preventivo</h3>
+            <p>Limpieza física interna, cambio de pasta térmica y revisión general de componentes para alargar la vida útil de tu equipo.</p>
+        </div>
+
+        <div class="card card-purple-border">
+            <div class="card-icon card-icon-purple"><i class="fa-solid fa-stethoscope"></i></div>
+            <h3>Diagnóstico y Hardware</h3>
+            <p>Identificación precisa de fallas electrónicas y reemplazo seguro de piezas dañadas (discos, memorias, pantallas, etc.).</p>
+        </div>
+
+        <div class="card card-purple-border">
+            <div class="card-icon card-icon-purple"><i class="fa-solid fa-gauge-high"></i></div>
+            <h3>Optimización del Sistema</h3>
+            <p>Mejora drástica del rendimiento, eliminación de archivos basura y aceleración del tiempo de arranque.</p>
+        </div>
+
+        <div class="card card-purple-border">
+            <div class="card-icon card-icon-purple"><i class="fa-solid fa-computer"></i></div>
+            <h3>Limpieza Física Interna</h3>
+            <p>Remoción de polvo acumulado en ventiladores y disipadores para evitar sobrecalentamientos y apagones repentinos.</p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content" style="padding: 0;">
+            <p>&copy; 2026 TechServicesPAU. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT PARA EL BOTÓN DE ME GUSTA -->
+    <script>
+        let isLiked = false;
+        function toggleLike() {
+            const btn = document.getElementById('likeBtn');
+            btn.classList.toggle('liked');
+
+            if (!isLiked) {
+                btn.classList.add('liked');
+                isLiked = true;
+            } else {
+                btn.classList.remove('liked');
+                isLiked = false;
+            }
+        }
+    </script>
+
+</body>
+</html>

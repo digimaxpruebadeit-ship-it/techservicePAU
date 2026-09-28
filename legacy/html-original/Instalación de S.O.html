@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalación de S.O. - TechServicesPAU</title>
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos principales -->
+    <link rel="stylesheet" href="estilo/style.css">
+    <!-- Estilos específicos en tonos verdes -->
+    <link rel="stylesheet" href="estilo/instalacion-verde.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="menu.html" class="logo"><i class="fa-solid fa-laptop-code"></i> TechServices<span>PAU</span></a>
+            
+            <ul class="nav-links">
+                <li><a href="menu.html">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="index.html#contacto" class="btn-nav">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO DEL DETALLE -->
+    <header class="hero-section hero-install-green">
+        <div class="matrix-bg-effect"></div>
+
+        <div class="hero-flex-container">
+            
+            <!-- ANIMACIÓN #1 (Izquierda con estilo de pestaña) -->
+            <div class="hero-terminal-container lottie-tab-box">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">pro_sys_1.9</span>
+                </div>
+                <div class="lottie-content-wrapper">
+                    <iframe src="https://lottie.host/embed/b97c8118-3b65-4193-b792-8ada60114c17/7wJrqq6CJn.lottie"></iframe>
+                </div>
+            </div>
+
+            <!-- TERMINAL CENTRAL -->
+            <div class="hero-terminal-container">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">sys_installer.sh</span>
+                </div>
+
+                <div class="hero-content-terminal">
+                    <div class="hero-main-icon-green">
+                        <i class="fa-solid fa-terminal"></i>
+                    </div>
+                    <h1>Instalación de <span class="text-glow-green">S.O.</span></h1>
+                    <p>Formateo profesional, configuración limpia y optimización de sistemas operativos (Windows / Linux).</p>
+                    
+                    </div>
+                </div>
+            </div>
+
+            <!-- ANIMACIÓN #2 (Derecha con estilo de pestaña y mayor brillo/contraste) -->
+            <div class="hero-terminal-container lottie-tab-box">
+                <div class="terminal-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                    <span class="terminal-title">informatica_sys_2.0</span>
+                </div>
+                <div class="lottie-content-wrapper highlight-lottie">
+                    <iframe src="https://lottie.host/embed/b31110d2-6152-45af-84db-922473a6236c/8G4WlziEuo.lottie"></iframe>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- CONTENIDO / TARJETAS -->
+    <section class="container services-section">
+        <div class="services-grid">
+            
+            <div class="card card-green-border">
+                <div class="card-icon card-icon-green"><i class="fa-solid fa-hard-drive"></i></div>
+                <h3>Formateo e Instalación Limpia</h3>
+                <p>Eliminación de errores de sistema y bloatware mediante una instalación totalmente limpia desde cero.</p>
+            </div>
+
+            <div class="card card-green-border">
+                <div class="card-icon card-icon-green"><i class="fa-solid fa-microchip"></i></div>
+                <h3>Drivers y Controladores</h3>
+                <p>Instalación de los controladores oficiales más recientes para garantizar el rendimiento óptimo de tu hardware.</p>
+            </div>
+
+            <div class="card card-green-border">
+                <div class="card-icon card-icon-green"><i class="fa-solid fa-shield-virus"></i></div>
+                <h3>Activación y Seguridad Base</h3>
+                <p>Configuración de cuentas de usuario, parches de seguridad esenciales y utilidades básicas listas para usar.</p>
+            </div>
+
+            <div class="card card-green-border card-center-last">
+                <div class="card-icon card-icon-green"><i class="fa-solid fa-arrows-rotate"></i></div>
+                <h3>Migración y Respaldo</h3>
+                <p>Resguardo seguro de tus documentos, fotos y archivos personales antes de realizar cualquier cambio de sistema.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content" style="padding: 0;">
+            <p>&copy; 2026 TechServicesPAU. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT PARA EL BOTÓN DE ME GUSTA -->
+    <script>
+        function toggleLike() {
+            const btn = document.getElementById('likeBtn');
+            btn.classList.toggle('liked');
+        }
+    </script>
+
+</body>
+</html>
