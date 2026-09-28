@@ -5,7 +5,7 @@
 - Se consolidaron los estilos duplicados en `estilo/style.css`.
 - Se retiraron scripts inline y estilos inline de las páginas finales.
 - Se corrigieron rutas inconsistentes que apuntaban a `index.html`; el inicio real queda en `menu.html`.
-- Se añadió `index.html` como redirección de compatibilidad hacia `menu.html`.
+- `index.html` ahora contiene la página principal completa; se eliminó la redirección intermedia que podía provocar un destello/pantalla blanca antes de llegar a `menu.html`.
 - Se corrigió el HTML mal formado de Ciberseguridad.
 - Se eliminaron referencias rotas a `likeCount` y el carácter suelto `C` de los scripts antiguos.
 - El botón "Me Gusta" funciona con estado local y accesible; no almacena datos personales.

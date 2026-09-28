@@ -1,0 +1,4 @@
+Contact: mailto:soporte@techservicespau.com
+Expires: 2027-09-26T00:00:00Z
+Preferred-Languages: es
+Canonical: /.well-known/security.txt
